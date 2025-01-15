@@ -1,17 +1,41 @@
 # U-Knee-Versity
+KneeGPT: Your Interactive Knee Anatomy Learning Assistant 🦿
 
 <div align="center">
-<img src="./kneegpt.png" alt="banner"/>
+<img src="u-knee-versity demo-1.gif"/>
 </div>
 
-A user-friendly, highly customizable Python web app designed to help students learn about knee anatomy and surgery.
+KneeGPT is an innovative educational tool that combines the power of artificial intelligence with an interactive 3D model to help medical students, professionals, and anyone interested in learning about **knee** anatomy and surgery created with Gemini 1.5 Flash.
+
+# Features
+### 🤖 AI-Powered Assistant
+
+- Specialized knee surgery expert assistant that provides detailed explanations and answers
+- Contextual responses based on specific anatomical structures and surgical procedures
+- Engaging conversational interface that makes learning interactive and enjoyable
+
+### 🦴 Interactive 3D Model
+
+The 3D model includes detailed labeling of key structures:
+
+- Patellar Tendon
+- Quadriceps Tendon
+- Tibial Tuberosity
+- Medial Collateral Ligament
+- Medial Meniscus
+- Posterior Cruciate Ligament
+- Posterior Meniscofemoral Ligament
+- Anterior Cruciate Ligament
+- Lateral Meniscus
+- Lateral Collateral Ligament
+- Transverse Ligament
 
 # Getting Started
 
-You'll need a valid Google API key - save your API key under the environment variable `GOOGLE_API_KEY`:
+Setuo your Google Generative AI Studio API Key
 
 ```bash
-export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY" # replace me!
+export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
 ```
 
 ### 🧬 1. Clone the Repo
@@ -28,7 +52,7 @@ To get started with Reflex, you'll need:
 - Node.js 12.22.0+ \(No JavaScript knowledge required!\)
 - Pip dependencies: `reflex`, `google.generativeai`
 
-Install `pip` dependencies with the provided `requirements.txt`:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -42,24 +66,3 @@ Initialize and run the app:
 reflex init
 reflex run
 ```
-
-# Features
-
-- 100% Python-based, including the UI, using Reflex
-- Create and delete chat sessions
-- The application is fully customizable and no knowledge of web dev is required to use it.
-    - See https://reflex.dev/docs/styling/overview for more details 
-- Easily swap out any LLM
-- Responsive design for various devices
-- Interactive 3D model of knee anatomy
-
-# Contributing
-
-We welcome contributions to improve and extend the U-Knee-Versity app. 
-If you'd like to contribute, please do the following:
-- Fork the repository and make your changes. 
-- Once you're ready, submit a pull request for review.
-
-# License
-
-The following repo is licensed under the MIT License.
