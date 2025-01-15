@@ -1,11 +1,10 @@
-# U-Knee-Versity
-KneeGPT: Your Interactive Knee Anatomy Learning Assistant 🦿
+# U-Knee-Versity + KneeGPT
+## Your Interactive Knee Anatomy Learning Assistant 🦿
+KneeGPT is an innovative educational tool that combines the power of artificial intelligence with an interactive 3D model to help medical students, professionals, and anyone interested in learning about **knee** anatomy and surgery created with Gemini 1.5 Flash.
 
 <div align="center">
-<img src="u-knee-versity demo-1.gif"/>
+<img src="assets/u-knee-versity demo-1.gif"/>
 </div>
-
-KneeGPT is an innovative educational tool that combines the power of artificial intelligence with an interactive 3D model to help medical students, professionals, and anyone interested in learning about **knee** anatomy and surgery created with Gemini 1.5 Flash.
 
 # Features
 ### 🤖 AI-Powered Assistant
