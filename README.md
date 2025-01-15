@@ -1,23 +1,23 @@
-# Reflex Chat App
-
-A user-friendly, highly customizable Python web app designed to demonstrate LLMs in a ChatGPT format.
+# U-Knee-Versity
 
 <div align="center">
-<img src="./docs/demo.gif" alt="icon"/>
+<img src="./kneegpt.png" alt="banner"/>
 </div>
+
+A user-friendly, highly customizable Python web app designed to help students learn about knee anatomy and surgery.
 
 # Getting Started
 
-You'll need a valid OpenAI subscription - save your API key under the environment variable `OPENAI_API_KEY`:
+You'll need a valid Google API key - save your API key under the environment variable `GOOGLE_API_KEY`:
 
 ```bash
-export OPENAI_API_KEY="YOUR_OPENAI_API_KEY" # replace me!
+export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY" # replace me!
 ```
 
 ### 🧬 1. Clone the Repo
 
 ```bash
-git clone https://github.com/reflex-dev/reflex-chat.git
+git clone https://github.com/Daheer/u-knee-versity.git
 ```
 
 ### 📦 2. Install Reflex
@@ -26,7 +26,7 @@ To get started with Reflex, you'll need:
 
 - Python 3.7+
 - Node.js 12.22.0+ \(No JavaScript knowledge required!\)
-- Pip dependencies: `reflex`, `openai`
+- Pip dependencies: `reflex`, `google.generativeai`
 
 Install `pip` dependencies with the provided `requirements.txt`:
 
@@ -51,10 +51,11 @@ reflex run
     - See https://reflex.dev/docs/styling/overview for more details 
 - Easily swap out any LLM
 - Responsive design for various devices
+- Interactive 3D model of knee anatomy
 
 # Contributing
 
-We welcome contributions to improve and extend the LLM Web UI. 
+We welcome contributions to improve and extend the U-Knee-Versity app. 
 If you'd like to contribute, please do the following:
 - Fork the repository and make your changes. 
 - Once you're ready, submit a pull request for review.
