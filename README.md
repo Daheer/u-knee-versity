@@ -31,19 +31,19 @@ The 3D model includes detailed labeling of key structures:
 
 # Getting Started
 
-Setuo your Google Generative AI Studio API Key
+Setup your Google Generative AI Studio API Key
 
 ```bash
 export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
 ```
 
-### 🧬 1. Clone the Repo
+### Clone the Repo
 
 ```bash
 git clone https://github.com/Daheer/u-knee-versity.git
 ```
 
-### 📦 2. Install Reflex
+### Install Reflex
 
 To get started with Reflex, you'll need:
 
